@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;servlets.facebookServlets&apos; to &apos;facebookServlet&apos;&#x0A;- Original project: &apos;MiniFacebook&apos;&#x0A;- Original element: &apos;servlets.facebookServlets&apos;&#x0A;- Renamed element: &apos;servlets.facebookServlet&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;facebookServlets&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;servlets{facebookServlets.java[facebookServlets" matchStrategy="1" name="facebookServlet" qualified="false" references="true" similarDeclarations="false" stamp="1478362846230" textual="false" version="1.0"/>
+</session>

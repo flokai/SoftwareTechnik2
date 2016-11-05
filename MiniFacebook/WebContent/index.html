@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Mini-Facebook</h1>
+	<form class="form-horizontal" action="/MiniFacebook/facebookServlet" method="get">
+		<div class="form-group">
+			<label class="control-label col-sm-4" for="FirstName">Vorname:</label>
+			<div class="col-sm-8">
+				<input type="text" class="form-control" id="FirstName"
+					placeholder="Max" name="vname">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-4" for="LastName">Nachname:</label>
+			<div class="col-sm-8">
+				<input type="text" class="form-control" id="LastName"
+					placeholder="Mustermann" name="nname">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-4" for="email">E-Mail:</label>
+			<div class="col-sm-8">
+				<input type="email" class="form-control" id="email"
+					placeholder="max.mustermann@muster.de" name="email">
+			</div>
+		</div>
+		<div>
+			<p><input type="submit" value="sendFormular"></p>
+		</div>
+	</form>
+</body>
+</html>

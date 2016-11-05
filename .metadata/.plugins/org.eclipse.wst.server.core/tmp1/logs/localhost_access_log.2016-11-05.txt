@@ -1,0 +1,8 @@
+127.0.0.1 - - [05/Nov/2016:17:19:25 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [05/Nov/2016:17:19:26 +0100] "GET /MiniFacebook/index.html HTTP/1.1" 200 1049
+0:0:0:0:0:0:0:1 - - [05/Nov/2016:17:19:33 +0100] "GET /MiniFacebook/facebookServlet?vname=f&nname=&email= HTTP/1.1" 404 1050
+127.0.0.1 - - [05/Nov/2016:17:20:12 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [05/Nov/2016:17:20:13 +0100] "GET /MiniFacebook/facebookServlets HTTP/1.1" 200 191
+0:0:0:0:0:0:0:1 - - [05/Nov/2016:17:20:19 +0100] "GET /MiniFacebook/index.html HTTP/1.1" 200 1049
+0:0:0:0:0:0:0:1 - - [05/Nov/2016:17:20:20 +0100] "GET /MiniFacebook/facebookServlet?vname=&nname=&email= HTTP/1.1" 404 1050
+0:0:0:0:0:0:0:1 - - [05/Nov/2016:17:20:52 +0100] "GET /MiniFacebook/facebookServlet?vname=&nname=&email= HTTP/1.1" 200 179
