@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+h1 {
+	color: black;
+}
+
+h2 {
+	color: black;
+}
+
+h3 {
+	color: black;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+.name {
+	background-color: dimgrey;
+	color: white;
+	height: 80;
+	font-size: 80px
+}
+
+.name2 {
+	background-color: white;
+	color: black;
+	height: 30;
+	font-size: 30px
+}
+
+.hintergrund {
+	color: black;
+	background-color: white;
+}
+
+.adresse {
+	color: black;
+	background-color: white;
+}
+
+.bild {
+	position: absolute, text-align:right;
+	width
+	=
+	200;
+	height
+	=
+	200;
+}

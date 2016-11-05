@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.body {
+	background-color: white;
+	color: black;
+}
+
+h1 {
+	color: black;
+	font-size: 50px;
+}
+
+.animate {
+	background: blue;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}

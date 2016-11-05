@@ -1,0 +1,3 @@
+INDEX VERSION 1.3+/Users/floriankaiser/Documents/workspaceSoftwareTechnik2/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3844176379.index
+4076933429.index

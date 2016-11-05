@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Taschenrechner</title>
+<script type="text/javascript"
+	src="/Users/floriankaiser/Documents/workspaceSote2/Formular(2)/WebContent/TaschenrechnerFunktionen.js"></script>
+
+<link rel="stylesheet" type="text/css" href=TaschenrechnerStyle.css>
+</head>
+<body>
+	<h1>Taschenrechner-Webpage</h1>
+	<div>erstellt von Florian Kaiser</div>
+	<br />
+	<div>
+		Dieser Taschenrechner wurde im Rahmen einer Lehrveranstaltung erstellt
+		und soll lediglich<br /> einfache Rechenaufgaben lösen können
+	</div>
+	<br />
+	<form name="Rechner" action="" onSubmit="Ergebnis();return false;">
+		<table border="5" cellpadding="10" cellspacing="0">
+			<tr>
+				<td bgcolor="#C0C0C0"><input type="text" name="Display"
+					align="right" class="display"></td>
+			</tr>
+			<tr>
+				<td bgcolor="#E0E0E0">
+					<table border="0" cellpadding="0" cellspacing="2">
+						<tr>
+							<td><input type=button class="tasten" value=""
+								></td>
+							<td><input type=button class="tasten" value=""
+								></td>
+							<td><input type=button class="tasten" value=""
+								></td>
+							<td><input type=button class="tasten" value="AC"
+								onclick="reset()"></td>
+						</tr>
+						<tr>
+							<td><input type=button class="tasten" value="7"
+								onclick="hinzufuegen('7')"></td>
+							<td><input type=button class="tasten" value="8"
+								onclick="hinzufuegen('8')"></td>
+							<td><input type=button class="tasten" value="9"
+								onclick="hinzufuegen('9')"></td>
+							<td><input type=button class="tasten" value="/"
+								onclick="calculate('/')"></td>
+						</tr>
+						<tr>
+							<td><input type=button class="tasten" value="4"
+								onclick="hinzufuegen('4')"></td>
+							<td><input type=button class="tasten" value="5"
+								onclick="hinzufuegen('5')"></td>
+							<td><input type=button class="tasten" value="6"
+								onclick="hinzufuegen('6')"></td>
+							<td><input type=button class="tasten" value="*"
+								onclick="calculate('*')"></td>
+						</tr>
+						<tr>
+							<td><input type=button class="tasten" value="1"
+								onclick="hinzufuegen('1')"></td>
+							<td><input type=button class="tasten" value="2"
+								onclick="hinzufuegen('2')"></td>
+							<td><input type=button class="tasten" value="3"
+								onclick="hinzufuegen('3')"></td>
+							<td><input type=button class="tasten" value="-"
+								onclick="calculate('-')"></td>
+						</tr>
+						<tr>
+							<td><input type=button class="tasten" value="0"
+								onclick="hinzufuegen('0')">
+							<td><input type=button class="tasten" value="."
+								onclick="hinzufuegen('.')">
+							<td><input type=button class="tasten" value="="
+								onclick="ausgabe()">
+							<td><input type=button class="tasten" value="+"
+								onclick="calculate('+')">
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
