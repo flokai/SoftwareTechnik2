@@ -26,9 +26,9 @@ public class facebookServlet extends HttpServlet {
 		String email = request.getParameter("email");
 
 		writer.write("<html><body><h1>ServletSeite</h1><form><table><tr><th>Parameter</th><th>Wert</th><th>Änderungen</th></tr>"
-				+ "<tr><td>Vorname</td><td>"+ vorname + "</td><td><input type=button value=Ändern></td></tr>"
-						+ "<tr><td>Nachname</td><td>"+ nachname + "</td><td><input type=button value=Ändern></td></tr>"
-								+ "<tr><td>Email</td><td>"+ email + "</td><td><input type=button value=Ändern></td></tr>"
+				+ "<tr><td>Vorname</td><td>"+ vorname + "</td><td><input type=button></td></tr>"
+						+ "<tr><td>Vorname</td><td>"+ nachname + "</td><td><input type=button></td></tr>"
+								+ "<tr><td>Vorname</td><td>"+ email + "</td><td><input type=button></td></tr>"
 						+ "</table></form></body></html>");
 		writer.flush();
 		writer.close();
